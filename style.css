@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  
+    url('../fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  
+    url('../fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  
+    url('../fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'), 
+    url('../fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  
+    url('../fonts/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  
+    url('../fonts/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  
+    url('../fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  
+    url('../fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype')
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANSansWeb(FaNum).eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+    url('../fonts/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  
+    url('../fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),  
+    url('../fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+body {font-family: IRANSans;background-color:rgba(249,249,249,1)}
+.navbar-default {background-color: #fff;padding: 15px;border-bottom: none;}
+#navbar-logo {margin: 7px;}
+.navbar-nav li a {color:#000 !important; transition: .4s all ease;font-size:16px;}
+.navbar-nav li a:hover {color:rgb(73, 181, 231) !important;}
+#bs1-img {background-image: url(img/white_pad.png);width:618px;height:480px;float:right;}
+#bs1 {margin-top:180px;width:100%;float:right;}
+#bs1 p {color:#888888 !important;margin-top:20px;font-size:16px;}
+#bs1 p small {color:#f56eab !important;}
+#bs1 h1 {color:#000 !important;font-weight: bold !important;margin-top:0px !important;}
+.btn-special {background-color:#49b5e7;color:#fff;border-radius: 4px;padding:15px;font-weight: bold; transition: .4s all ease;}
+.btn-special:hover {background-color: #222222;color:#fff !important;;}
+#bs2 {background-color: #fff;padding: 25px;width:100%;float:right;}
+.section-title {color:#000 !important;font-weight: bold;text-align: center;margin-bottom: 60px}
+#bs2 ul li{list-style-type: none;}
+.icon-box-circle {width: 90px;height: 90px;padding: 3px;border:3px solid;border-radius: 180px;margin: auto;}
+.icon-box-circle-inner {width: 100%;height:100%;border-radius: 180px;}
+#bs2 ul li:nth-child(1) .icon-box-circle {border-color:  #49b5e7;}
+#bs2 ul li:nth-child(1) .icon-box-circle-inner {background-color: #49b5e7;}
+#bs2 ul li:nth-child(2) .icon-box-circle {border-color:  #7cc576;}
+#bs2 ul li:nth-child(2) .icon-box-circle-inner{background-color: #7cc576;}
+#bs2 ul li:nth-child(3) .icon-box-circle {border-color:  #f56eab;}
+#bs2 ul li:nth-child(3) .icon-box-circle-inner {background-color: #f56eab;}
+.icon-box-circle-inner span {font-size:40px;color:#fff;display: block;text-align: center;padding-top:18px;}
+#bs2 ul li h3 {text-align: center;color:#000 !important;}
+#bs2 ul li p {text-align: center;color:#888888 !important;font-size:15px;line-height: 1.2}
+#bs3 {width:100%;float:right;margin-top:20px;padding: 25px 0px;background-color: #f9f9f9;}
+#bs3-img {background-image: url(img/dashboard_pic.png);width:685px;height: 541px;float:right;}
+#bs3 ul li {list-style-type: none; margin-bottom:10px;}
+#bs3 ul li span {font-size:24px;color:#888 !important;margin-top: 8px;}
+#bs3 ul li h4 {color:#000 !important; }
+#bs3 ul li p {color:#888888 !important;font-size:15px;}
+.btn-special2 {background-color:#f56eab;color:#fff;border-radius: 4px;padding:15px;font-weight: bold; transition: .4s all ease;}
+.btn-special2:hover {background-color: #222222;color:#fff !important;;}
+#bs4 {width: 100%;float:right;padding: 25px 0px;background-color: #fff;margin-top:25px;}
+#bs4 [class*="col-"] {padding:0px !important;  position: relative;}
+#bs4 img {width: 100%;height: auto;}
+.bs4-portfolio-content-box {cursor: pointer;position: absolute;background-color: rgba(255,255,255,.8);height: 100%;width: 100%;top:0;right:0;  opacity:0;transition: .5s all ease;}
+.opacity-full { opacity:1;}
+.bs4-portfolio-content-box h2  {text-align: center;margin-top:80px;color:#000;}
+.bs4-portfolio-content-box p {text-align: center;margin-top:15px;color:#000;opacity:.5;}
+#bs5 {width:100%;float:right;background-color: #fff;padding: 50px 0px 25px;}
+.client-pic {border:3px solid #f5f5f5;display: block;margin:0 auto;}
+#bs5 h4 {text-align: center;color:#49b5e7;font-weight: bold;}
+#bs5 p {text-align: center;color:#888888;}
+.qoute-box {padding: 35px 20px;background-color: #f9f9f9;margin-top:50px;}
+.qoute-box img {margin: 0 15px;}
+#bs6 {background-image: url(img/poligan_bg.jpg);width:100%;height: 150px;float:right;}
+#bs6 img {display:block;margin:60px auto;}
+#bs7 {width:100%;padding: 40px 25px;background-color: #fff;float:right;}
+.section-desc {font-size:16px;color:#888;text-align:center;}
+#bs7 ul li {list-style-type: none;}
+#bs7 ul li img {display: block;margin:0 auto;border:5px solid #f6f6f6;}
+#bs7 h4 {text-align:center;font-weight: bold;color:#000;}
+#bs7 p {text-align: center;color:#888;}
+#bs7 a {display: block;}
+#bs8 {background-color: #00b8ff;padding: 25px;width:100%;float:right;transition: 0.3s all ease;}
+#bs8:hover {background-color: #f56eab;}
+.fa-fa-twitter {display:block;margin:20px auto;}
+#bs8 p {margin: 30px 20%;text-align: center;color:#fff;}
+footer {width:100%;padding:25px;float:right;background-image: url(img/pattern_bg.jpg);}
+.footer-icon-box {width: 100px;height:100px;border-radius: 360px;background-color: #2e6da4;  border:4px solid #fff;display: block;margin:0 auto;}
+.footer-icon-box i {font-size:48px;display: block;margin-top:18px;text-align: center;color:#fff;}
+.footer-icon-text {font-size:16px;color:#fff;text-align: center;margin-top:15px;}
+.icon1 .footer-icon-box{background-color: #49b5e7;}
+.icon2 .footer-icon-box{background-color: #7cc576;}
+.icon3 .footer-icon-box{background-color: #f56eab}
+#ConTACTUs input {margin-bottom: 10px;font-size:15px;}
+#ConTACTUs textarea {margin-bottom: 10px;font-size:15px;}
+#footer-contact-us-text h3 {color:#fff;}
+#footer-contact-us-text p {color:#fff;font-size:15px;line-height:1.7;margin-top:40px;}
+.social-radius-footer {background-color: #333;border-radius: 360px;width:60px;height:60px;display: block;float:right;border:5px solid #fff;margin-left:10px;text-decoration: none !important;transition: .4s all ease;}
+.social-radius-footer i {display: block;font-size:30px;margin-top:10px;text-align: center;color:#fff;}
+
+
+#footer-contact-us-text .social-radius-footer:nth-child(1):hover {background-color: #55acee;}
+#footer-contact-us-text .social-radius-footer:nth-child(2):hover {background-color: #dd4b39;}
+#footer-contact-us-text .social-radius-footer:nth-child(3):hover {background-color: #cb2026;}
+#footer-contact-us-text .social-radius-footer:nth-child(4):hover {background-color: #ea4c89;}
+#footer-contact-us-text .social-radius-footer:nth-child(5):hover {background-color: #3b5998;}
+.footer-copyright-text {color:#cccccc;font-size:14px;text-align: center;}
+hr {width:100%;height:1px;border:0;background-color: #8c8c8c}
+
+
+
+@media (max-width: 768px) {
+    .qoute-box {margin-top: 10px;margin-bottom:25px;}
+}
+@media (min-width: 768px) {
+    .qoute-box {margin-top: 10px;margin-bottom:25px;}
+}
